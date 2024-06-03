@@ -1,0 +1,48 @@
+# .vscode
+__pycache__
+*.out
+*.jpeg
+*.yaml
+*.npy
+# *.txt
+*.wiki
+Pipfile*
+*.md
+*.log
+*.pt
+
+# b2t/
+b2t/data/celebA
+b2t/data/cub
+b2t/data/diff
+b2t/data/result
+b2t/Pipfile*
+# b2t/dataは全て
+
+# data/内のFairFaceのデータは全て/nas/data/ryota23/DATA/FairFace/にコピー
+data/
+
+# datasets/内のデータは全て/nas/data/ryota23/DATA/にコピー
+datasets/data
+
+B2T_Result/
+# clip/
+debias_clip
+
+# ./embeddings/は全て/nas/data/ryota23/debiasing/にコピー
+embeddings
+
+Result_combine_B2T
+Result_wiki
+
+# SSC/
+SSC/OutlierDetection_backup.py
+
+# wise-ft/
+wise-ft/.vscode
+wise-ft/*.yml
+wise-ft/debug_here
+# wise-ft/clip
+
+# wise-ft/models/は全て/nas/data/ryota23/debiasing/wise-ft/modelsにコピー
+wise-ft/models

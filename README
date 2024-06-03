@@ -1,0 +1,27 @@
+# Linear Calibration Approach to Knowledge-free Group Robust Classification
+
+- To reproduce the results of the paper, please execute the following code.
+
+- Waterbirds, Captioning-based
+
+```
+python main.py --dataset waterbirds --load_base_model clip_ViTL14 --dist_method Distance-based --base Captioning-based --V 40 --K 2 --debias
+```
+
+- Waterbirds, Retrieval-based
+
+```
+python main.py --dataset waterbirds --load_base_model clip_ViTL14 --dist_method Distance-based --base Retrieval-based --V 60 --K 3 --debias
+```
+
+- CelebA, Captioning-based
+
+```
+python main.py --dataset celebA --load_base_model clip_ViTL14 --dist_method Distance-based --base Captioning-based --V 200 --K 7 --debias
+```
+
+- CelebA, Retrieval-based
+
+```
+python main.py --dataset celebA --load_base_model clip_ViTL14 --dist_method Distance-based --base Retrieval-based --V 130 --K 5 --debias
+```

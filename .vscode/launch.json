@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+                "--dataset",
+                "waterbirds",
+                // "celebA",
+                // 
+                "--load_base_model",
+                "clip_ViTL14",
+                // "clip_RN50",
+                // 
+                "--V",
+                // "40",
+                "60",
+                // "130",
+                // "200",
+                // 
+                "--dist_method",
+                // "Similarity-based",
+                "Distance-based",
+                // 
+                "--K",
+                // "2",
+                "3",
+                // "5",
+                // "7",
+                // 
+                "--base",
+                // "Captioning-based",
+                "Retrieval-based",          
+                // 
+                "--seed",
+                "0",
+                // 
+                "--debias",
+            ],
+        }
+    ]
+}
