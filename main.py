@@ -131,7 +131,7 @@ def print_info(args):
 
 
 def main():
-    warnings.filterwarnings("ignore")
+    # warnings.filterwarnings("ignore")
     args = get_args()
     print_info(args)
 
