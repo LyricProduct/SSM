@@ -25,3 +25,5 @@ python main.py --dataset celebA --load_base_model clip_ViTL14 --dist_method Dist
 ```
 python main.py --dataset celebA --load_base_model clip_ViTL14 --dist_method Distance-based --base Retrieval-based --V 130 --K 5 --debias
 ```
+
+python exp.py --dataset celebA --CUDANum 1 --model clip_ViTL14 --dist_method Distance-based --base Retrieval-based

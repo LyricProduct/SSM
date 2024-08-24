@@ -1,2 +1,6 @@
 V,K,Avg,WG,Gap,Spurious Subspace
 40,2,88.38,66.355,22.025,"['fish', 'birds', 'biological', 'tree', 'parrot', 'biological species flying', 'biological species', 'surfer', 'species', 'species of bird', 'seagull', 'prey', 'bird flies', 'dog', 'paradise', 'bird of paradise', 'bird of prey', 'bamboo']"
+V,K,Avg,WG,Gap,Spurious Subspace
+40,2,88.423,80.218,8.205,"['bird', 'beach', 'rainforest', 'trees', 'garden', 'city', 'flies', 'sunset', 'woods', 'bamboo forest', 'wild', 'forest', 'person', 'trail', 'water']"
+V,K,Avg,WG,Gap,Spurious Subspace
+60,3,90.999,68.692,22.307,"['birdies', 'ornithology', 'birds', 'songbird', 'birdsongs', 'bird', 'lairds', 'birdie', 'birder']"
