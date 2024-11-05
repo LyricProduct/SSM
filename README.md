@@ -41,8 +41,8 @@ pip install -r requirements.txt
 ```
 
 ### 2. Data Preparation
-#### Waterbirds and CelebA
-See [this work](https://github.com/chingyaoc/debias_vl).
+- WILDS datasets (Waterbirds, CelebA): The code enables automatic download of WILDS datasets (thanks to the amazing [WILDS benchmark package](https://wilds.stanford.edu/)!). No extra steps needed here!
+<!-- - DomainBed datasets (PACS, VLCS): Download the datasets from [DomainBed suit](https://github.com/facebookresearch/DomainBed) -->
 
 ### 3. Run
 To reproduce the results of the paper, please execute the following code.
