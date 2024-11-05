@@ -3,7 +3,7 @@ We provide Pytorch implementation of the BMVC 2024 paper "Linear Calibration App
 
 ## Abstract
 <p align="center">
-<img src="method_overview.jpg" width: auto, height="400" />
+<img src="method_overview.jpg" width: auto />
 </p>
 
 Large-scale pre-trained vision-language models such as CLIP have shown remarkable performance on various downstream tasks. However, such a model often learns
