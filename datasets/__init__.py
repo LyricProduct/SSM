@@ -59,7 +59,8 @@ def initialize_data(args):
 
     if args.dataset == "waterbirds":
         # Update this to right path
-        args.root_dir = "./datasets/data/Waterbirds/"
+        # args.root_dir = "./datasets/data/Waterbirds/"
+        args.root_dir = "/nas/data/ryota23/DATA/Waterbirds/"
         args.val_split = 0.2
         args.target_name = "waterbird_complete95"
         args.confounder_names = ["forest2water2"]
@@ -72,7 +73,8 @@ def initialize_data(args):
         args.wilds_dataset = False
 
     elif "celebA" in args.dataset:
-        args.root_dir = "./datasets/data/CelebA/"
+        # args.root_dir = "./datasets/data/CelebA/"
+        args.root_dir = "/nas/data/ryota23/DATA/CelebA/"
         # IMPORTANT - dataloader assumes that we have directory structure
         # in ./datasets/data/CelebA/ :
         # |-- list_attr_celeba.csv
