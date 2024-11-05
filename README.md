@@ -14,8 +14,7 @@ Unlike existing methods, our method is (i) knowledge-free: does not use any info
 single linear projection, and (iii) calibration-based: does not change the original classifier at all. The negative effects of the group attributes can be canceled by projecting the classification space to the orthogonal complement of the subspace spanned by
 the group attributes. To achieve this, we propose Spurious Subspace Mining (SSM)
 to discover the subspace from a random set of text embeddings without any supervision. Experimental results on two standard benchmark datasets, Waterbirds and CelebA,
-show that the proposed method outperforms various existing methods and improves zeroshot baseline by 35.2% in worst-group accuracy. Our code is available at https://github.com/LyricProduct/SSM.git
-
+show that the proposed method outperforms various existing methods and improves zeroshot baseline by 35.2% in worst-group accuracy.
 ## Setup
 
 ### 1. Environment
